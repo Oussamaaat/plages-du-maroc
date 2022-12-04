@@ -1,0 +1,48 @@
+.leaflet-container {
+    height: 1000px;
+    width: 2000px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.coordinate {
+    position: absolute;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.381);
+    right: 40%;
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    font-weight: 550;
+    
+
+}
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.605);
+
+}
+.leaflet-control-scale-line  {
+    background: rgba(255, 255, 255, 0.527);
+
+}
+.info { 
+    padding: 6px 8px; 
+    font: 14px/16px Arial, Helvetica, sans-serif; 
+    background: rgba(152, 161, 144, 0.8); 
+    background: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+    border-radius: 5px; 
+} 
+.info h4 { 
+    margin: 0 0 5px; 
+    color: rgb(16, 16, 16); 
+}
+.legend { 
+    text-align: left; 
+    line-height: 18px; 
+    color: rgb(193, 152, 152); } 
+.legend i {
+     width: 18px; 
+    height: 18px; 
+    float: left; 
+    margin-right: 8px; 
+    opacity: 0.7; 
+    }
